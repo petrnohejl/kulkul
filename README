@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+
+KulKul
+(c) 2009 Petr Nohejl
+
+KulKul je 3D logická hra na mobilní telefony, podporující Javu (J2ME). Hra je
+určená pro dva hráče (každý má svou barvu hracích kamenů) a hráči se po každém
+tahu pravidelně střídají.
+
+Pravidla hry jsou poměrně jednoduchá. KulKul je jako piškvorky, hrané ve 3D
+prostoru, kde se jednotlivé hrací kameny naskládávají na kůly. Hracím polem je
+prostor pro 4x4x4 kameny (tedy 16 kůlů, na každý lze umístit maximálně 4
+kameny). Hrací kameny se vkládají na kůly a hromadí se tak na sebe. Cílem hry
+je jako první poskládat 4 vlastní kameny do přímky (v řadě, na sebe, do tělesové
+úhlopříčky, nebo stěnové úhlopříčky). Pokud nastane situace, že žádný z hráčů už
+nemůže umístit kamen na žádný kůl, hra končí patem.
+
+Na projektu se podíleli: Petr Nohejl, Jakub Libosvár, Petr Panáček. 
+
+--------------------------------------------------------------------------------
+
+Instalace:
+
+Rozbalte archív s programem a nahrajte hru do mobilního telefonu. Hra vyžaduje
+podporu technologie Java a 3D zobrazení. 
+
+--------------------------------------------------------------------------------
+
+Ovládání v Play mode: 
+
+joystick, klávesy 2, 4, 5, 6, 8 - výběr a umístění hracího kamene
+klávesa 7 - přepnutí do View mode
+klávesa 0 - přepnutí do menu
+
+Ovládání ve View mode:
+
+joystick, klávesy 2, 4, 6, 8 - otáčení kamery
+klávesy 1, 3 - zoomování kamery
+klávesa 7 - přepnutí do Play mode
+klávesa 0 - přepnutí do menu
+
+--------------------------------------------------------------------------------
